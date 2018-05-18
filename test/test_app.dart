@@ -4,7 +4,7 @@ import 'package:mask_formatter/mask_formatter.dart';
 import 'mask_formatter_test.dart';
 
 class TestApp extends StatefulWidget {
-  TestEnv testEnv;
+  final TestEnv testEnv;
   TestApp(this.testEnv);
 
   @override
@@ -16,7 +16,7 @@ class TestAppState extends State<TestApp> {
 
   MaskTextInputFormatter maskFormatter;
   List<TextInputFormatter> formatters;
-  TestAppState(TestEnv this.env) {
+  TestAppState(this.env) {
     maskFormatter = new MaskTextInputFormatter(env.mask,
         escapeChar: env.escapeChar);
     formatters = env.inputFormatters;

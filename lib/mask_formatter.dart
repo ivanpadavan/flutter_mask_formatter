@@ -1,4 +1,4 @@
-library mask_textinputformatter;
+library mask_formatter;
 import 'package:flutter/services.dart';
 
 class MaskTextInputFormatter extends TextInputFormatter {
