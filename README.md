@@ -9,7 +9,7 @@ There are two properties to pass into constuructor:
 1. `mask` (not named);
 2. `escapeChar` - if you need to change the default one ('_')
 
-And useful method `getEscapedString`. TextController will return masked value So it's hand converter.
+And useful method `getEscapedString`. TextController will return masked value So it's a handy converter.
 
 
 With this piece of code:
